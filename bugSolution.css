@@ -1,0 +1,10 @@
+The solution is to carefully remove the invalid character from the CSS code.  The best way to detect these is using a hex editor or a text editor that reveals invisible characters. In most text editors, you can often display invisible characters with a setting such as "Show whitespace characters".
+
+```css
+/* Corrected CSS */
+.my-element {
+  color: red;
+  font-size: 16px;
+  padding: 10px;
+}
+```
